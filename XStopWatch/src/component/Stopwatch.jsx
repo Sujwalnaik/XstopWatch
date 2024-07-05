@@ -37,7 +37,7 @@ const Stopwatch = () => {
 
   return (
     <div>
-      <h1>StopWatch</h1>
+      <h1>Stopwatch</h1>
       <div style={{ fontSize: "30px" }}>Time : {formatTime(time)}</div>
       <div style={{ display: "flex" }}>
         <button onClick={handleStartStop}>
